@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Operations</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Array Operations</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Search and Sort Integers</h2>
+                        <div class="form-group">
+                            <label for="integerArray">Enter integers separated by commas:</label>
+                            <input type="text" class="form-control" id="integerArray" >
+                        </div>
+                        <button class="btn btn-primary" id="sortButton">Sort</button>
+                        <button class="btn btn-success" id="searchButton">Search</button>
+                        <div id="result" class="mt-3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">Named Entities</h2>
+                        <div class="form-group">
+                            <label for="entityArray">Enter named entities:</label>
+                            <input type="text" class="form-control" id="entityArray" >
+                        </div>
+                        <button class="btn btn-warning" id="addEntityButton">Add Entity</button>
+                        <ul id="entityList" class="list-group mt-3"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Include custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

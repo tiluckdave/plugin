@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Your Name - Curriculum Vitae</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #video-background {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1000;
+        }
+
+        .container {
+            z-index: 1;
+            position: relative;
+            margin-top: 100px;
+        }
+
+        #pfp {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Video Background -->
+    <video id="video-background" playsinline autoplay muted loop>
+        <source src="bgvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Your Name</h1>
+                <p>Web Developer</p>
+            </div>
+            <div class="col-md-6">
+                <img src="pfp.jpg" alt="Your Name" id="pfp" class="img-fluid rounded-circle">
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h2>Education</h2>
+                <p>University Name - Bachelor's in Computer Science</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Experience</h2>
+                <p>Company Name - Web Developer (2020-present)</p>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h2>Contact</h2>
+                <p>Email: your.email@example.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

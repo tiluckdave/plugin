@@ -1,0 +1,62 @@
+/* Custom CSS for Array Operations Website */
+
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+#result {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#entityList {
+    list-style: none;
+    padding: 0;
+}
+
+#entityList .list-group-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
